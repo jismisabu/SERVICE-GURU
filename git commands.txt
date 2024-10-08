@@ -1,0 +1,19 @@
+git init [initializing git repository] 
+
+git status [ list all untracked files]
+
+git add -A [adding all changes to staging Area]
+
+git commit -m "any message" [ staged files to local repository]
+
+git remote add service https://github.com/luminartechnolabkochi/ServiceGuru.git............this one only for first time . it is for adding your git repositary to the project
+
+git remote -v [to see remote name]
+
+git branch [to know your branch name (green color one is the current branch active)]
+
+git push ("remotename") ("branchname")............... [ local repository changes remote repository]
+
+git pull [remote repo changes local repo]
+
+git clone [remote repository exact copy localrepository]
